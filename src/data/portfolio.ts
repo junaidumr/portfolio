@@ -16,7 +16,7 @@ export const site = {
   email: "junaidaziz1899@gmail.com",
   phone: "+92 316 853 2829",
   phoneHref: "tel:+923168532829",
-  location: "Rawalpindi, Punjab, Pakistan",
+  location: "Islamabad, Pakistan",
   locationShort: "Pakistan",
   yearsExperience: "2+ years",
   company: "Voultrex",
@@ -103,7 +103,7 @@ export const techStack = [
 
 export const about = {
   paragraphs: [
-    "I'm Junaid Aziz—a full stack developer and prompt engineer based in Rawalpindi, Pakistan, currently building products at Voultrex. I own delivery from interface through API and database: mobile clients, admin dashboards, and backends built for real operations.",
+    "I'm Junaid Aziz—a full stack developer and prompt engineer based in Islamabad, Pakistan, currently building products at Voultrex. I own delivery from interface through API and database: mobile clients, admin dashboards, and backends built for real operations.",
     "Over two years I have shipped a multi-app coffee shop platform (customer, partner, and rider), productivity software, and personal finance products. I pair strong engineering fundamentals with AI-native workflows so teams move quickly without compromising reliability.",
     "Organizations engage me when they need a single technical owner who communicates clearly, documents decisions, and ships across mobile, web, and backend without coordination overhead.",
   ],

@@ -64,8 +64,8 @@ const jsonLd = {
   email: site.email,
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Rawalpindi",
-    addressRegion: "Punjab",
+    addressLocality: "Islamabad",
+    addressRegion: "Islamabad",
     addressCountry: "PK",
   },
   sameAs: [
