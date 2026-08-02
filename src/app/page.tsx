@@ -1,3 +1,4 @@
+"use client";
 import { About } from "@/components/About";
 import { Background } from "@/components/Background";
 import { Contact } from "@/components/Contact";
@@ -11,7 +12,14 @@ import { Services } from "@/components/Services";
 import { Skills } from "@/components/Skills";
 import { TechStrip } from "@/components/TechStrip";
 
+import { useEffect } from "react";
+
 export default function Home() {
+  useEffect(() => {
+    // Ensure the page starts at the very top (About section) on initial load
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
+
   return (
     <>
       <Background />
@@ -22,14 +30,14 @@ export default function Home() {
         <div className="section-divider mx-auto max-w-6xl" />
         <About />
         <div className="section-divider mx-auto max-w-6xl" />
-        <Services />
-        <Process />
-        <div className="section-divider mx-auto max-w-6xl" />
-        <Skills />
+        <Experience />
         <div className="section-divider mx-auto max-w-6xl" />
         <Projects />
         <div className="section-divider mx-auto max-w-6xl" />
-        <Experience />
+        <Skills />
+        <div className="section-divider mx-auto max-w-6xl" />
+        <Services />
+        <Process />
         <Contact />
       </main>
       <Footer />

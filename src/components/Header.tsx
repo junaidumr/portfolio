@@ -51,7 +51,7 @@ export function Header() {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-white/[0.06] bg-[#08090d]/85 backdrop-blur-xl"
+          ? "border-b border-white/[0.04] bg-[#020204]/80 backdrop-blur-xl"
           : "bg-transparent"
       }`}
     >
@@ -60,7 +60,7 @@ export function Header() {
           href="#"
           className="flex items-center gap-2.5 font-display text-[15px] font-semibold tracking-tight text-white"
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/[0.04] text-xs font-bold text-teal-500">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-purple-500/20 bg-purple-500/5 text-xs font-bold text-purple-400">
             JA
           </span>
           <span className="hidden sm:inline">{site.name}</span>
@@ -84,7 +84,7 @@ export function Header() {
                 {isActive && (
                   <motion.span
                     layoutId="nav-underline"
-                    className="absolute inset-x-3.5 -bottom-px h-px bg-teal-600"
+                    className="absolute inset-x-3.5 -bottom-px h-px bg-purple-500"
                     transition={{ type: "spring", stiffness: 400, damping: 35 }}
                   />
                 )}
@@ -130,7 +130,7 @@ export function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="overflow-hidden border-t border-white/[0.06] glass-strong md:hidden"
+            className="overflow-hidden border-t border-white/[0.04] glass-strong md:hidden"
             aria-label="Mobile"
           >
             <ul className="flex flex-col gap-0.5 px-6 py-5">

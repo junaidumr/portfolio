@@ -155,7 +155,7 @@ export function GlowCard({
     <motion.div
       className={className}
       whileHover={{ y: -2 }}
-      transition={{ type: "spring", stiffness: 500, damping: 32 }}
+      transition={{ type: "spring", stiffness: 400, damping: 28 }}
       {...props}
     >
       {children}

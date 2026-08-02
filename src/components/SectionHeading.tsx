@@ -24,7 +24,7 @@ export function SectionHeading({
           {index && (
             <span className="font-mono text-xs text-zinc-600">{index}</span>
           )}
-          <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-teal-700">
+          <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-purple-400">
             {label}
           </p>
         </div>

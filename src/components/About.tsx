@@ -10,8 +10,8 @@ export function About() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           id="about"
-          index="01"
-          label="About"
+          index="02"
+          label="Who I Am"
           title="Engineering with accountability"
           description={`Full stack developer and prompt engineer at ${site.company}. Based in ${site.location}.`}
         />
@@ -28,8 +28,8 @@ export function About() {
           <Stagger className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
             {about.highlights.map((item) => (
               <MotionItem key={item.label}>
-                <GlowCard className="rounded-xl border border-white/[0.07] bg-white/[0.02] p-5">
-                  <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-zinc-600">
+                <GlowCard className="rounded-xl border border-white/[0.04] bg-[#09090b]/40 glass p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-purple-400/80">
                     {item.label}
                   </p>
                   <p className="mt-2 font-display text-base font-semibold text-white">

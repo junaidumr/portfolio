@@ -142,6 +142,7 @@ export const projects = [
     accent: "from-amber-600/25 via-amber-900/10 to-transparent",
     category: "Consumer mobile",
     year: "2025",
+    image: "/project-coffee-shop.png",
   },
   {
     title: "Partner & Rider Apps",
@@ -154,6 +155,7 @@ export const projects = [
     accent: "from-violet-600/25 via-violet-900/10 to-transparent",
     category: "Operations platform",
     year: "2025",
+    image: "/project-partner-rider.png",
   },
   {
     title: "UpToDo — Todo App",
@@ -166,6 +168,7 @@ export const projects = [
     accent: "from-cyan-600/25 via-cyan-900/10 to-transparent",
     category: "Productivity",
     year: "2024",
+    image: "/project-uptodo.png",
   },
   {
     title: "BudgetFree",
@@ -198,9 +201,9 @@ export const experience = [
 
 export const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#services", label: "Services" },
-  { href: "#skills", label: "Skills" },
+  { href: "#experience", label: "Philosophy" },
   { href: "#projects", label: "Work" },
-  { href: "#experience", label: "Experience" },
+  { href: "#skills", label: "Skills" },
+  { href: "#services", label: "AI Labs" },
   { href: "#contact", label: "Contact" },
 ] as const;

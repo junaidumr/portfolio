@@ -14,7 +14,7 @@ export function Footer() {
             <p className="mt-1 text-sm text-zinc-500">{site.title}</p>
             <a
               href={`mailto:${site.email}`}
-              className="mt-3 inline-block text-sm text-teal-600 transition hover:text-teal-500"
+              className="mt-3 inline-block text-sm text-purple-400 transition hover:text-purple-300"
             >
               {site.email}
             </a>
@@ -39,7 +39,7 @@ export function Footer() {
           </p>
           <a
             href="#"
-            className="text-xs font-medium text-zinc-500 transition hover:text-teal-600"
+            className="text-xs font-medium text-zinc-500 transition hover:text-purple-400"
           >
             Back to top
           </a>
